@@ -1,0 +1,74 @@
+@font-face{
+	font-family: myFont;
+	src: url(UniversLTStd-LightCn.otf);
+}
+
+.popup{
+	left: 50px;
+	width:300px;
+	height:125px;
+	background-color: rgba(0, 0, 0, 0.8);
+	bottom:100px;
+	position: fixed;
+	border-radius: 15px 15px 15px 15px;
+	font-family: myFont;
+	font-size: 16px;
+	border:7px solid rgb(168, 160, 160);
+	text-align: center;
+	color:white;
+	z-index: 10;
+
+}
+
+.claseDivs{
+	border-bottom:1px solid rgb(223, 217, 217);
+	padding:10px;
+	font-family: myFont;
+	margin: 0px;
+}
+
+.claseUno{
+	width: 80%;
+	height: 40px;
+	margin: auto;
+	text-align: center;
+	font-size: 20px;
+	padding-top: 6px;
+}
+
+.imagenes{
+	background-attachment: fixed;
+	background-position: 50% 0;
+	background-repeat: no-repeat;
+	height: 450px;
+	position: relative;
+	background-size: 100%;
+
+}
+
+.paralax{
+	position:relative;
+}
+
+.fondoImagenUno{
+
+
+background-image: -webkit-linear-gradient(right,rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.05) 30% ,white ),url("../imagenes/race.jpg");
+background-repeat: no-repeat;
+background-size: auto 100%;
+
+}
+
+.fondoImagenDos{
+
+background-image: -webkit-linear-gradient(left,rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 90% ,white ),url("../imagenes/gym.jpg");
+background-repeat: no-repeat;
+background-size: auto 100%;
+}
+
+.fondoImagenTres{
+
+background-image: -webkit-linear-gradient(right,rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.05) 30% ,white ),url("../imagenes/ola.jpg");
+background-repeat: no-repeat;
+background-size: auto 100%;
+}
